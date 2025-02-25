@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.css" />
     <link rel="stylesheet" href="styles.css" />
+
   </head>
   <body>
-    <main class="main">
+    <main data-scroll-container class="main">
       <nav class="nav">
         <h2>My Blog</h2>
         <div>
@@ -17,51 +19,135 @@
         </div>
       </nav>
 
-      <section class="blog1">
-        <h2 class="heading">My First Blog</h2>
-        <h5 class="subhead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut aspernatur fuga accusantium omnis quod ratione.</h5>
-        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi hic, porro doloribus quod, nostrum unde, obcaecati eius voluptas provident rem eum eaque. Earum, eius vero?</p>
+      <section class="blog">
+        <h2 class="heading">A Walk Through Simple Joys</h2>
+        
+        <div class="para-img">
+          <p class="para">
+           In our fast-paced world, we often overlook the small yet beautiful
+          things around us. But sometimes, taking a moment to slow down and
+          observe can bring unexpected joy. Today, I decided to do just
+          that—step outside and simply notice. As I walked, I saw colors
+          bursting from beautiful flowers, adding life to the surroundings.
+          Playful squirrels ran around, full of energy and mischief. In a quiet
+          corner of the park, people were doing yoga, finding peace in movement
+          and breath. And near the edge of a small pond, a group of ducks glided
+          smoothly across the water, creating ripples that seemed to dance in
+          the sunlight. It’s amazing how these little things can bring a sense
+          of calm and appreciation. Maybe all we need is to pause, observe, and
+          embrace the beauty that’s always been there. What small moments have
+          made you smile today? Let me know in the comments!
+        </p>
+
         <div class="imgdiv">
-          <img
-            src="https://plus.unsplash.com/premium_photo-1739052532481-ec8585055149?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          <img data-scroll data-scroll-speed="-1"
+            src="https://images.unsplash.com/photo-1560331470-4737e8408873?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
-          />
+            />
+          </div>
         </div>
 
-        <p class="para">Things i saw</p>
-        <ul class="unorder">
-            <li>Beautiful Flowers</li>
-            <li>Squirrels running around</li>
-            <li>People doing yoga</li>
-            <li>A small pond with ducks</li>
-        </ul>
+        <div class="points">
+            <p class="pointhead">Things i saw</p>
+          <ul class="unorder">
+            <li>Vibrant flowers adding color to the surroundings.</li>
+            <li>Squirrels playfully running around</li>
+            <li>People doing yoga, embracing calmness.</li>
+            <li>A small pond reflecting the sky.</li>
+            <li>Ducks gliding smoothly on the water.</li>
+            <li>A peaceful atmosphere, perfect for reflection.</li>
+            <li>Fresh air making everything feel refreshing.</li>
+            <li>Soft rustling leaves, adding to the serenity</li>
+          </ul>
+        </div>
+
       </section>
 
-      <section class="blog2">
-        <h2 class="heading">My Second Blog</h2>
-        <h5 class="subhead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus ullam hic quas natus atque aut ut officiis earum, ad quod?</h5>
-         
-        <p class="para">Here ae some of my top favourite foods</p>
-            
-            <ol class="list">
-                <li>Pizza</li>
-                <ul class="inside-list">
-                    <li>Pepperoni</li>
-                    <li>Mushroom</li>
-                    <li>Onions</li>
-                </ul>
-                <li>Sushi</li>
-                <li>Pasta</li>
-                    <ol class="inside-list">
-                    <li>Spaghetti</li>
-                    <li>Penne</li>
-                    <li>Fettuccine</li>
-                </ol>
-            </ol>
+      <section class="blog">
+        <h2 class="heading">An Evening Under the Stars</h2>
+        
+        <div class="para-img">
+          <p class="para">
+           There’s something magical about looking up at the night sky. Away from
+          the rush of daily life, the quiet beauty of the stars brings a sense
+          of calm and wonder. Last night, I took a moment to step outside,
+          breathe in the cool night air, and simply admire the sky above. A
+          gentle breeze flowed around me as I lay on the grass, embracing the
+          calm of the night. Stars shone like tiny lanterns, scattered across
+          the dark sky, while the moon cast a soft glow, illuminating everything
+          with a gentle light. In the distance, the chirping of crickets blended
+          with the stillness, creating a peaceful soundtrack for the night. A
+          few shooting stars streaked across the sky, disappearing in an instant
+          but leaving behind a sense of awe. In that quiet moment, I felt
+          completely at peace, reminded of how beautiful and vast the world
+          truly is.
+        </p>
 
-            <p class="para">Thats all for the post ! Thanks for reading!</p>
-       
+        <div class="imgdiv">
+          <img data-scroll data-scroll-speed="-1"
+            src="https://plus.unsplash.com/premium_photo-1707563216156-e33bf94d36c8?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            />
+          </div>
+        </div>
+
+        <div class="points">
+            <p class="pointhead">Things i saw</p>
+          <ul class="unorder">
+          <li>A cool evening breeze makes the night refreshing.</li>
+          <li>Stars shining in the dark sky create a breathtaking view.</li>
+          <li>The moon’s soft glow adds to the calmness.</li>
+          <li>
+            Crickets chirping in the distance enhance the peaceful atmosphere.
+          </li>
+          <li>A shooting star passing by adds a touch of magic.</li>
+          <li>
+            The stillness of the night brings a rare moment of tranquility.
+          </li>
+          </ul>
+        </div>
+
+      </section>
+
+            <section class="blog">
+        <h2 class="heading">Lost in the World of Books</h2>
+        
+        <div class="para-img">
+          <p class="para">
+          There’s something enchanting about stepping into a bookstore—a quiet
+          sanctuary where stories, knowledge, and imagination come to life. The
+          moment I walked in, I felt the world slow down, inviting me to explore
+          its hidden treasures. The soothing scent of paper and ink mixed with
+          the faint aroma of coffee drifting from a nearby café. As I wandered
+          through the aisles, my fingers trailed over the spines of countless
+          books, each one a portal to a different world. A group of students
+          gathered around a table, flipping through textbooks, deep in
+          discussion. Near a sunlit window, an elderly man sat engrossed in a
+          novel, his eyes following the words with quiet intensity. A few steps
+          away, a child giggled while turning the pages of a colorful picture
+          book, discovering the joy of reading for the first time. Finally, I
+          found a cozy nook, picked up an intriguing novel, and settled into a
+          chair. As I turned the first page, the world outside faded, replaced
+          by the magic of words pulling me into their embrace.
+        </p>
+
+        <div class="imgdiv">
+          <img data-scroll data-scroll-speed="-1"
+            src="https://images.unsplash.com/photo-1535905557558-afc4877a26fc?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            />
+          </div>
+        </div>
+
       </section>
     </main>
+
+      <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+      <script >
+        const scroll = new LocomotiveScroll({
+        el: document.querySelector('.main'),
+        smooth: true
+    });
+      </script>
   </body>
 </html>
